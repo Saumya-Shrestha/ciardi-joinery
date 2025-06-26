@@ -1,12 +1,11 @@
-import React from "react";
 import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
     <>
       <div className="container">
-        <header className="d-flex flex-wrap align-items-center justify-content-center py-3 mb-4">
-          <ul className="nav col-12 mb-2 justify-content-center">
+        <header className="d-flex align-items-center justify-content-center py-2 mt-2">
+          <ul className="nav col-12 mb-2 justify-content-center header-content">
             <li>
               <Link
                 to="/"
