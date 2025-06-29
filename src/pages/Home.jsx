@@ -1,9 +1,9 @@
-import Quote from "../components/Quote";
-import Project from "../components/Project";
-import Testimonial from "../components/Testimonial";
-import Service from "../components/Service";
-import About from "../components/About";
-import Hero from "../components/Hero";
+import Quote from "../components/contact/Quote";
+import Project from "../components/projects/Project";
+import Testimonial from "../components/testimonials/Testimonial";
+import Service from "../components/services/Service";
+import About from "../components/about/About";
+import Hero from "../components/hero/Hero";
 
 const Home = () => {
   return (
