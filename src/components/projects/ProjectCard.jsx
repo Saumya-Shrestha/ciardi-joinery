@@ -1,6 +1,6 @@
 const ProjectCard = ({ imageName, altText }) => {
   return (
-    <div className="col-3 project-card">
+    <div className="project-card mb-3 mb-md-0">
       <img
         src={`/images/projects/${imageName}`}
         alt={altText}

@@ -7,7 +7,9 @@ const Layout = () => {
   return (
     <>
       <div className="d-flex flex-column min-vh-100">
-        <PreHeader />
+        <div className="d-none d-lg-block">
+          <PreHeader />
+        </div>
         <Header />
         <main className="flex-grow-1">
           <Outlet />

@@ -9,7 +9,7 @@ const Footer = () => {
     <>
       <div className="container-flex footer fs-5 mt-auto">
         <div className="row py-4 mb-3">
-          <div className="col-3 footer-column">
+          <div className="col-12 col-md-3 footer-column">
             <h4 className="footer-title">About Us</h4>
             <p>
               We listen to your ideas, understand your needs, and work closely with you to deliver custom woodwork that exceeds your expectations.
@@ -29,7 +29,7 @@ const Footer = () => {
               />
             </div>
           </div>
-          <div className="col-3 footer-column">
+          <div className="col-12 col-md-3 footer-column">
             <h4 className="footer-title">Quick Links</h4>
             <ul>
               <li>
@@ -52,7 +52,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="col-3 footer-column">
+          <div className="col-12 col-md-3 footer-column">
             <h4 className="footer-title">Get In Touch</h4>
             <ul
               className="footer-contact"
@@ -76,7 +76,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="col-3 footer-column">
+          <div className="col-12 col-md-3 footer-column">
             <h4 className="footer-title">Business Hour</h4>
             <ul
               className="footer-contact"

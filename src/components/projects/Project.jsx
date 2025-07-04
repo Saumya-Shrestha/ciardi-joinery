@@ -9,40 +9,56 @@ const Project = () => {
           RECENT <span className="highlight">PROJECTS</span>
         </h1>
         <div className="row">
-          <ProjectCard
-            imageName="project1.jpg"
-            altText="Project 1"
-          />
-          <ProjectCard
-            imageName="project2.jpg"
-            altText="Project 2"
-          />
-          <ProjectCard
-            imageName="project3.jpg"
-            altText="Project 3"
-          />
-          <ProjectCard
-            imageName="project4.jpg"
-            altText="Project 4"
-          />
+          <div className="col-12 col-md-3">
+            <ProjectCard
+              imageName="project1.jpg"
+              altText="Project 1"
+            />
+          </div>
+          <div className="col-12 col-md-3">
+            <ProjectCard
+              imageName="project2.jpg"
+              altText="Project 2"
+            />
+          </div>
+          <div className="col-12 col-md-3">
+            <ProjectCard
+              imageName="project3.jpg"
+              altText="Project 3"
+            />
+          </div>
+          <div className="col-12 col-md-3">
+            <ProjectCard
+              imageName="project4.jpg"
+              altText="Project 4"
+            />
+          </div>
         </div>
         <div className="row">
-          <ProjectCard
-            imageName="project5.jpg"
-            altText="Project 5"
-          />
-          <ProjectCard
-            imageName="project6.jpg"
-            altText="Project 6"
-          />
-          <ProjectCard
-            imageName="project7.jpg"
-            altText="Project 7"
-          />
-          <ProjectCard
-            imageName="project8.jpg"
-            altText="Project 8"
-          />
+          <div className="col-12 col-md-3">
+            <ProjectCard
+              imageName="project5.jpg"
+              altText="Project 5"
+            />
+          </div>
+          <div className="col-12 col-md-3">
+            <ProjectCard
+              imageName="project6.jpg"
+              altText="Project 6"
+            />
+          </div>
+          <div className="col-12 col-md-3">
+            <ProjectCard
+              imageName="project7.jpg"
+              altText="Project 7"
+            />
+          </div>
+          <div className="col-12 col-md-3">
+            <ProjectCard
+              imageName="project8.jpg"
+              altText="Project 8"
+            />
+          </div>
         </div>
         <Button
           text="VIEW ALL WORKS"

@@ -6,8 +6,8 @@ const Quote = () => {
     <>
       <div className="container-flex quote">
         <div className="row">
-          <div className="col-6 quote-image"></div>
-          <div className="col-6 quote-form">
+          <div className="col-6 quote-image d-none d-md-block"></div>
+          <div className="col-12 col-md-6 quote-form">
             <h3 className="text-center fs-2 fw-bold">
               Get A Quote Here <FaArrowTurnDown className="arrow" />
             </h3>

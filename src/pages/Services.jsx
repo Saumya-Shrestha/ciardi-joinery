@@ -6,13 +6,36 @@ import ServiceCTA from "../components/services/ServiceCTA";
 const Services = () => {
   return (
     <>
-      <Banner
-        title="OUR SERVICES"
-        description="Quality Craftsmanship for Every Project"
-      />
-      <ServiceGrid />
-      <ServiceFeatures />
-      <ServiceCTA />
+      <section
+        data-aos="fade-up"
+        data-aos-duration="800"
+      >
+        <Banner
+          title="OUR SERVICES"
+          description="Quality Craftsmanship for Every Project"
+        />
+      </section>
+      <section
+        data-aos="fade-up"
+        data-aos-duration="800"
+        data-aos-delay="100"
+      >
+        <ServiceGrid />
+      </section>
+      <section
+        data-aos="fade-up"
+        data-aos-duration="800"
+        data-aos-delay="200"
+      >
+        <ServiceFeatures />
+      </section>
+      <section
+        data-aos="fade-up"
+        data-aos-duration="800"
+        data-aos-delay="300"
+      >
+        <ServiceCTA />
+      </section>
     </>
   );
 };
